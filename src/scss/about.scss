@@ -1,0 +1,28 @@
+.about{
+    .row.aboutrow{
+        height:100%
+    }
+    .contentWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+    .imgWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .profileImg{
+        border: 3px solid rgba(255, 255, 255, .7);
+        width: 500px;
+        height: 600px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .imgContact{
+        background-image: url("../assets/contact.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

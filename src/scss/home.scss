@@ -1,0 +1,19 @@
+.home{
+    background-image: url("../assets/home1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .row.homeRow{
+        height:100%;
+      }
+    .head{
+        text-align: center;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerWelcome{
+        font-weight: bold;
+        font-size: 64px;
+    } 
+}

@@ -1,0 +1,57 @@
+.contact{
+    background-image: url("../assets/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .row.contactrow{
+        height:100%;
+    }
+    .contactWrapper{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        textarea{
+            margin-left: 128px;
+        }
+        hr{
+            height: 3px;
+        }
+        .phone{
+            margin-left: 45px;
+        }
+        .email{
+            margin-left: 52px;
+            width: 402px;
+        }
+        .firstName{
+            margin-left: 47px;
+        }
+        .lastName{
+            margin-left: 25px;
+        }
+        .form{
+            border: 3px solid rgba(255, 255, 255, .7);
+            padding: 25px;
+            border-radius: 10px;
+            background-color: black;
+        }
+        .submitBtn{
+            background-color: transparent;
+            color: white;
+            border-style: white;
+            border-color: white;
+            border-radius: 5px;
+            height: 35px;
+            width: 150px;
+        }
+    }
+    .imgContact{
+        background-image: url("../assets/contact.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+
