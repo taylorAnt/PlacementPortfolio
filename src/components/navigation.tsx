@@ -9,27 +9,27 @@ const Navigation = () => {
         <div className="row navbar">
             <div className="col-md-8 nav-home">
                 <NavLink className="nav-link" to="/">
-                    Portfolio 
+                    Placement Portfolio 
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/">
-                    Home
+                    1.0 Home
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/about">
-                    About
+                    2.0 About
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/projects">
-                    Projects
+                    3.0 Placement
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/contact">
-                    Contacts
+                    4.0 Internship
                 </NavLink>
             </div>
         </div>

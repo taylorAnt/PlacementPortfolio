@@ -1,27 +1,5 @@
 .projects{
-    background-image: url("../assets/contact.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    .row.projectrow{
-        height:100%
-    }
-    .projectImg{
-        border: 3px solid rgba(255, 255, 255, .7);
-        width: 575px;
-        height: 575px;
-        padding: 15px;
-        border-radius: 10px;
-        background-color: black;
-    }
-    .mobile, .web, .games{
-        text-align: center;
-        color: white;
-    }
-    .projectMainHeader{
-        color: white;
-        text-align: center;
-        padding-top: 25px;
-    }
+    color: white;
 }
 
 

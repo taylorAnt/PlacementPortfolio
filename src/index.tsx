@@ -8,9 +8,6 @@ import {
   About,
   Projects,
   Contact,
-  MobileDev,
-  WebDev,
-  GamesDev
 } from "./components";
 
 ReactDOM.render(
@@ -20,9 +17,6 @@ ReactDOM.render(
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />}/>
-      <Route path="/mobiledev" element={<MobileDev />}/>
-      <Route path="/webdev" element={<WebDev />}/>
-      <Route path="/gamesdev" element={<GamesDev />}/>
       <Route path="/contact" element={<Contact />} />
     </Routes>
   </Router>,
