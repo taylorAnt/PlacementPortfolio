@@ -13,23 +13,18 @@ const Navigation = () => {
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
-                <NavLink className="nav-link" to="/">
-                    1.0 Home
-                </NavLink>
-            </div>
-            <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/about">
-                    2.0 About
+                    1.0 About
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/projects">
-                    3.0 Placement
+                    2.0 Placement
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/contact">
-                    4.0 Internship
+                    3.0 Internship
                 </NavLink>
             </div>
         </div>
