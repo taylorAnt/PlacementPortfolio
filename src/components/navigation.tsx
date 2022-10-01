@@ -24,21 +24,21 @@ const Navigation = () => {
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
-                <NavLink className="nav-link" to="/contact">
+                <NavLink className="nav-link" to="/skills">
                     <label className="numberNav">02.</label>
                     <label className="linkText">Skills</label>
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
-                <NavLink className="nav-link" to="/projects">
+                <NavLink className="nav-link" to="/placement">
                     <label className="numberNav">03.</label>
                     <label className="linkText">Placement</label>
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
-                <NavLink className="nav-link" to="/contact">
+                <NavLink className="nav-link" to="/internships">
                     <label className="numberNav">04.</label>
-                    <label className="linkText">Internship</label>
+                    <label className="linkText">Internships</label>
                 </NavLink>
             </div>
         </div>

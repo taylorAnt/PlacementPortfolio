@@ -1,0 +1,32 @@
+.skills{
+    background: #0a192f;
+    display: flex;
+    flex-direction: row;
+    .skillsrow{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: calc(100vh - 66px);
+    }
+    .socialWrapper{
+        display: flex;
+        justify-content: center;
+        align-content: flex-end;
+        width: 20%;
+    }
+    .emailWrapper{
+        display: flex;
+        justify-content: center;
+        align-content: flex-end;
+        width: 20%;
+    }
+}
+
+.skills-header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+}
+
