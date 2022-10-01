@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Home,
@@ -11,7 +11,7 @@ import {
 } from "./components";
 
 ReactDOM.render(
-  <Router basename="/PlacementPortfolio">
+  <Router>
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
