@@ -5,30 +5,44 @@ import "../scss/navigation.scss";
 
 const Navigation = () => {
     return (
-      <div className="navigation">
+    <div className="container-fluid navigation">
         <div className="row navbar">
-            <div className="col-md-8 nav-home">
+            <div className="col-md-1 nav-home">
+                <NavLink className="nav-link logo" to="/">
+                    <div className="nameLogo">AT</div>
+                </NavLink>
+            </div>
+            <div className="col-md-7 nav-home">
                 <NavLink className="nav-link" to="/">
-                    Placement Portfolio 
+                    <label className="navHeader">Placement Portfolio</label> 
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/about">
-                    1.0 About
-                </NavLink>
-            </div>
-            <div className="col-md-1 nav-items">
-                <NavLink className="nav-link" to="/projects">
-                    2.0 Placement
+                    <label className="numberNav">01.</label>
+                    <label className="linkText">About</label>
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
                 <NavLink className="nav-link" to="/contact">
-                    3.0 Internship
+                    <label className="numberNav">02.</label>
+                    <label className="linkText">Skills</label>
+                </NavLink>
+            </div>
+            <div className="col-md-1 nav-items">
+                <NavLink className="nav-link" to="/projects">
+                    <label className="numberNav">03.</label>
+                    <label className="linkText">Placement</label>
+                </NavLink>
+            </div>
+            <div className="col-md-1 nav-items">
+                <NavLink className="nav-link" to="/contact">
+                    <label className="numberNav">04.</label>
+                    <label className="linkText">Internship</label>
                 </NavLink>
             </div>
         </div>
-      </div>
+    </div>
     );
   }
   
