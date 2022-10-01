@@ -1,12 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Socials from './socials';
+import Email from './email';
 import "../scss/home.scss";
-
-import gitIcon from '../assets/git.png';
-import instaIcon from '../assets/insta.png';
-import linkIcon from '../assets/link.png';
-import twitIcon from '../assets/twit.png';
-
 
 const Home = () => {
   return (
@@ -23,15 +19,7 @@ const Home = () => {
         <div className="bird-container bird-container--four">
           <div className="bird bird--four"></div>
         </div>
-        <div className="row socialWrapper">
-            <div className="social-container">
-                <img className="imgIcons" src={gitIcon} alt="GitHub" />
-                <img className="imgIcons" src={instaIcon} alt="Instagram" />
-                <img className="imgIcons" src={linkIcon} alt="Linkedin" />
-                <img className="imgIcons" src={twitIcon} alt="Twitter" />
-                <div className="line"></div>
-            </div>
-        </div>
+        <Socials/>
         <div className="row homeRow">
             <div className="landingWrapper">
                 <label className="home-small-header">Hi, my name is</label>
@@ -47,12 +35,7 @@ const Home = () => {
                   </NavLink>
             </div>
         </div>
-        <div className="row emailWrapper">
-          <div className="email-container">
-            <div className="email">anthony.taylor2@griffithuni.edu.au</div>
-            <div className="line"></div>
-          </div>
-        </div>
+        <Email/>
     </div>
   );
 }
