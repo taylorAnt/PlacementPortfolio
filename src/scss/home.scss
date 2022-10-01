@@ -79,6 +79,16 @@
     filter: invert(55%) sepia(30%) saturate(272%) hue-rotate(187deg) brightness(98%) contrast(90%);
 }
 
+.learn-more-btn{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
 
 //Styling for Bird Animation - special mention to steven Roberts whos code this was based from.
 .bird {

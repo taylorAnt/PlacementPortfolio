@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../scss/home.scss";
 
 import gitIcon from '../assets/git.png';
@@ -41,6 +42,9 @@ const Home = () => {
                     exceptional digital experiences.  Currently, I'm focused on completing my degree in intelligent
                     digital technologies, double majoring in IOT & Robitics and Programming for Visualisation & Entertainment.  
                   </p>
+                  <NavLink className="nav-link learn-more" to="/about">
+                    <button className="learn-more-btn">Learn More</button>
+                  </NavLink>
             </div>
         </div>
         <div className="row emailWrapper">
