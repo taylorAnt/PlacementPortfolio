@@ -14,12 +14,11 @@ const Internships = () => {
         <div className="row internshiprow">
             <div className="internship-header-container">
                 <h3 className="internship-number">04.</h3>
-                <h1 className="internship-header">Internships</h1>
+                <h1 className="internship-header">Summer Internship 2021</h1>
                 <div className="internship-line"></div>
             </div>
             <div className="internship-1">
                 <div className="internship-content-1">
-                  <h3 className="intership-content-1-header">Summer Internship 2021</h3>
                   <p className="internship-me-content-text">
                   As a second year student I was fortunate to create a connection within the ICT industry through 
                   a career expo, which led to an intern opportunity with IRE (Inspect Real Estate Pty Ltd).  
