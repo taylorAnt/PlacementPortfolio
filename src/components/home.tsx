@@ -27,8 +27,7 @@ const Home = () => {
                 <h2 className="home-big-header-2">I build things for the web.</h2>
                   <p className="home-about-me">
                     I'm a front-end software developer specialising in building (and occasionally designing)
-                    exceptional digital experiences.  Currently, I'm focused on completing my degree in intelligent
-                    digital technologies, double majoring in IOT & Robitics and Programming for Visualisation & Entertainment.  
+                    exceptional digital experiences.  I'm currently focused on completing my degree in <span className="highlight">Intelligent Digital Technologies</span>, double majoring in IOT & Robitics and Programming for Visualisation & Entertainment.  
                   </p>
                   <NavLink className="nav-link learn-more" to="/about">
                     <button className="learn-more-btn">Learn More</button>
