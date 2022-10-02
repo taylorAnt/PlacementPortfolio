@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/PlacementPortfolio/static/css/main.ca6171fb.css",
-    "main.js": "/PlacementPortfolio/static/js/main.071e7fcc.js",
+    "main.css": "/PlacementPortfolio/static/css/main.d58bc09f.css",
+    "main.js": "/PlacementPortfolio/static/js/main.435e4d02.js",
     "static/media/profile.jpg": "/PlacementPortfolio/static/media/profile.a82b672db3579a329983.jpg",
+    "static/media/leader3.png": "/PlacementPortfolio/static/media/leader3.189c2af42941f0c39bd1.png",
+    "static/media/leader2.png": "/PlacementPortfolio/static/media/leader2.6bb2f8b380f202ac57c9.png",
     "static/media/complianceCode.png": "/PlacementPortfolio/static/media/complianceCode.fc93fba452e8f1017c2e.png",
     "static/media/comp.png": "/PlacementPortfolio/static/media/comp.14fff1dba2254905937d.png",
     "index.html": "/PlacementPortfolio/index.html",
-    "main.ca6171fb.css.map": "/PlacementPortfolio/static/css/main.ca6171fb.css.map",
-    "main.071e7fcc.js.map": "/PlacementPortfolio/static/js/main.071e7fcc.js.map"
+    "main.d58bc09f.css.map": "/PlacementPortfolio/static/css/main.d58bc09f.css.map",
+    "main.435e4d02.js.map": "/PlacementPortfolio/static/js/main.435e4d02.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca6171fb.css",
-    "static/js/main.071e7fcc.js"
+    "static/css/main.d58bc09f.css",
+    "static/js/main.435e4d02.js"
   ]
 }
