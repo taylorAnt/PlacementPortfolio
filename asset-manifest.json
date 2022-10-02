@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/PlacementPortfolio/static/css/main.d58bc09f.css",
-    "main.js": "/PlacementPortfolio/static/js/main.435e4d02.js",
+    "main.css": "/PlacementPortfolio/static/css/main.4e203ac6.css",
+    "main.js": "/PlacementPortfolio/static/js/main.b5d329e1.js",
     "static/media/profile.jpg": "/PlacementPortfolio/static/media/profile.a82b672db3579a329983.jpg",
     "static/media/leader3.png": "/PlacementPortfolio/static/media/leader3.189c2af42941f0c39bd1.png",
     "static/media/leader2.png": "/PlacementPortfolio/static/media/leader2.6bb2f8b380f202ac57c9.png",
+    "static/media/render.png": "/PlacementPortfolio/static/media/render.a888c588f3f756a15aa8.png",
     "static/media/complianceCode.png": "/PlacementPortfolio/static/media/complianceCode.fc93fba452e8f1017c2e.png",
     "static/media/comp.png": "/PlacementPortfolio/static/media/comp.14fff1dba2254905937d.png",
+    "static/media/render4.png": "/PlacementPortfolio/static/media/render4.4936a1251b6bd4d1f66e.png",
     "index.html": "/PlacementPortfolio/index.html",
-    "main.d58bc09f.css.map": "/PlacementPortfolio/static/css/main.d58bc09f.css.map",
-    "main.435e4d02.js.map": "/PlacementPortfolio/static/js/main.435e4d02.js.map"
+    "main.4e203ac6.css.map": "/PlacementPortfolio/static/css/main.4e203ac6.css.map",
+    "main.b5d329e1.js.map": "/PlacementPortfolio/static/js/main.b5d329e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d58bc09f.css",
-    "static/js/main.435e4d02.js"
+    "static/css/main.4e203ac6.css",
+    "static/js/main.b5d329e1.js"
   ]
 }
