@@ -19,6 +19,7 @@ const Internships = () => {
             </div>
             <div className="internship-1">
                 <div className="internship-content-1">
+                  <h3 className="intership-content-1-header">Summer Internship 2021</h3>
                   <p className="internship-me-content-text">
                   As a second year student I was fortunate to create a connection within the ICT industry through 
                   a career expo, which led to an intern opportunity with IRE (Inspect Real Estate Pty Ltd).  
@@ -63,10 +64,12 @@ const Internships = () => {
                 </div>
                 <div className="internship-img-wrapper">
                   <div className="internship-img-container">
+                    <div className="overlay-img-container-internship"></div>
                     <img className="internship-img" src={Comp} alt="internshipImg" />
                     <div className="border-image-internship"></div>
                   </div>
                   <div className="internship-img-container">
+                    <div className="overlay-img-container-internship"></div>
                     <img className="internship-img" src={Code} alt="internshipImg" />
                     <div className="border-image-internship"></div>
                   </div>

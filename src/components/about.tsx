@@ -46,6 +46,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="profile-img-container">
+                  <div className="overlay-img-container-about"></div>
                   <img className="profile-img" src={profileImg} alt="profileImg" />
                   <div className="border-image"></div>
                 </div>

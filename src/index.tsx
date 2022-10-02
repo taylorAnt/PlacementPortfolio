@@ -20,7 +20,6 @@ ReactDOM.render(
       <Route path="/skills" element={<Skills />} />
       <Route path="/placement" element={<Placement />} />
       <Route path="/internships" element={<Internships />}/>
-
     </Routes>
   </Router>,
 
