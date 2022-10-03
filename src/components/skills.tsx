@@ -5,7 +5,7 @@ import Socials from './socials';
 import Email from './email';
 
 import Lead1 from '../assets/leader2.png';
-import Lead2 from '../assets/leader3.png';
+import Lead2 from '../assets/tasks.png';
 import Render1 from '../assets/render.png';
 import Render2 from '../assets/render4.png';
 
@@ -17,7 +17,7 @@ const Skills = () => {
         <div className="row skillsrow">
             <div className="skills-header-container">
                 <h3 className="about-number">02.</h3>
-                <h1 className="about-me-header">Transferable Skills</h1>
+                <h1 className="about-me-header">Transferable Skills - Cinefly</h1>
                 <div className="about-line"></div>
             </div>
             <div className="skills-1">
@@ -79,11 +79,15 @@ const Skills = () => {
                   </p>
                 </div>
                 <div className="skills-img-wrapper">
+                  <label className="feature-header-skills-1">Featured Artefact</label>
+                  <label className="feature-content-skills-1">Customer Mapping With Wireframes</label>
                   <div className="skills-img-container-vert">
                     <div className="overlay-img-container-skills-vert"></div>
                     <img className="skills-img-vert" src={Render2} alt="skillsImgimageVert" />
                     <div className="border-image-skills-vert"></div>
                   </div>
+                  <label className="feature-header-skills-2">Featured Artefact</label>
+                  <label className="feature-content-skills-2">UI/UX Design For Compliance Tracker</label>
                   <div className="skills-img-container">
                     <div className="overlay-img-container-skills"></div>
                     <img className="skills-img" src={Render1} alt="skillsImg" />
@@ -97,15 +101,19 @@ const Skills = () => {
             <br/>
             <div className="skills-1">
             <div className="skills-img-wrapper">
+                  <label className="feature-header-skills-left">Featured Artefact</label>
+                  <label className="feature-content-skills-left">Supporting The Placement Interns</label>
                   <div className="skills-img-container">
                     <div className="overlay-img-container-skills"></div>
                     <img className="skills-img" src={Lead1} alt="skillsImg" />
-                    <div className="border-image-skills"></div>
+                    <div className="border-image-skills-left"></div>
                   </div>
+                  <label className="feature-header-skills-left">Featured Artefact</label>
+                  <label className="feature-content-skills-left">Assigning Project Sprints</label>
                   <div className="skills-img-container">
                     <div className="overlay-img-container-skills"></div>
                     <img className="skills-img" src={Lead2} alt="skillsImg" />
-                    <div className="border-image-skills"></div>
+                    <div className="border-image-skills-left"></div>
                   </div>
                 </div>
                 <div className="skills-content-1">

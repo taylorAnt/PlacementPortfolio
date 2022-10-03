@@ -62,11 +62,15 @@ const Internships = () => {
                   </p>
                 </div>
                 <div className="internship-img-wrapper">
+                  <label className="feature-header-internship">Featured Artefact</label>
+                  <label className="feature-content-internship">UI/UX Design For Compliance Tracker</label>
                   <div className="internship-img-container">
                     <div className="overlay-img-container-internship"></div>
                     <img className="internship-img" src={Comp} alt="internshipImg" />
                     <div className="border-image-internship"></div>
                   </div>
+                  <label className="feature-header-internship-2">Featured Artefact</label>
+                  <label className="feature-content-internship">Code Behind For ASP.NET Webform</label>
                   <div className="internship-img-container">
                     <div className="overlay-img-container-internship"></div>
                     <img className="internship-img" src={Code} alt="internshipImg" />

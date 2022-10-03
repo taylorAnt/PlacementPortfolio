@@ -23,15 +23,15 @@ const Navigation = () => {
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
-                <NavLink className="nav-link" to="/skills">
+                <NavLink className="nav-link" to="/placement">
                     <label className="numberNav">02.</label>
-                    <label className="linkText">Skills</label>
+                    <label className="linkText">Placement</label>
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
-                <NavLink className="nav-link" to="/placement">
+                <NavLink className="nav-link" to="/skills">
                     <label className="numberNav">03.</label>
-                    <label className="linkText">Placement</label>
+                    <label className="linkText">Skills</label>
                 </NavLink>
             </div>
             <div className="col-md-1 nav-items">
