@@ -87,7 +87,7 @@ const Skills = () => {
                     <div className="border-image-skills-vert"></div>
                   </div>
                   <label className="feature-header-skills-2">Featured Artefact</label>
-                  <label className="feature-content-skills-2">UI/UX Design For Compliance Tracker</label>
+                  <label className="feature-content-skills-2">UI/UX Design For Portal Viedo Rendering</label>
                   <div className="skills-img-container">
                     <div className="overlay-img-container-skills"></div>
                     <img className="skills-img" src={Render1} alt="skillsImg" />
